@@ -10,6 +10,7 @@ function Counter() {
       </p>
       <button onClick={() => setNum(num + 1)}>1씩 증가</button>
       <button onClick={() => setNum(num - 1)}>1씩 감소</button>
+      <button>추가</button>
     </div>
   );
 }
